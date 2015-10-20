@@ -1,0 +1,55 @@
+
+body
+{background-color: #0a0
+
+
+
+
+}
+.wrapper {
+	width: 350px;
+	margin: 0 auto;
+	border: 7px solid #00a;
+	padding: 80px;
+	background-color:  yellow;
+	box-shadow: 10px 10px 5px #fff;
+
+font-family: verdana;
+
+}
+a {
+	color: #00f;
+}
+
+h1 {
+	text-align:center;
+}
+
+img {
+	display:block;
+	margin:0 auto;
+}
+
+p {
+	padding-left: 10px;
+	line-height: 150%;
+	font-size: 20px;
+	text-align:left;
+}
+
+ul {
+	text-align:left;
+	font-size: 20px;
+}
+
+li {
+	
+}
+
+.timesfont {
+	font-family: Times;
+}
+
+.f1 {
+	color: red;
+}
