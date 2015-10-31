@@ -1,0 +1,78 @@
+
+body {
+	background-color: #1E90FF;
+	font-family: Verdana,Arial;
+	border: 1px solid #ccc;
+	margin: 0px 170px;
+}
+
+.frame {
+	display:block;
+	margin:0 auto;
+	border: 1px solid #ccc;
+}
+.header {
+	background-color: yellow;
+
+} 
+
+.sidebar {
+	background-color: #C0C0C0;
+	float: left;
+	width: 25%;
+
+}
+
+.content: {
+	background-color: #eee;
+	width: 50%;
+	margin: 0 auto;
+} 
+
+/*.container{
+	position: relative;
+	overflow: hidden;
+}
+
+.clearfix:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+*/
+.news {
+	background-color: #C0C0C0;
+	float: right;
+	width: 25%;
+
+}
+
+
+
+.footers {
+	clear: both;
+	background-color: blue;
+
+} 
+
+
+.menu{
+	position: relative;
+	overflow: hidden;
+	background: black;
+
+}
+
+.menu li{
+	float: left;
+	list-style: none;
+	padding: 5px;
+	margin-right: 35px;
+	border: 1px solid #000;
+
+}
+
+.menu a{
+	color: white;
+	list-style-type: none;
+}
