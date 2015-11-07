@@ -1,0 +1,125 @@
+
+.{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #eee;
+	font-family: Arial, sans-serif;
+}
+
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	padding: 40px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 10px #aaa;
+}
+
+h1 {
+	text-align:left;
+	font-size: 40px;
+}
+.main {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.frame {
+	float: right;
+	display: block;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #ccc;
+}
+
+.aside {
+	float: left;
+	list-style: none;
+	width: 20%;
+	padding: 2px;
+}
+
+.aside li {
+	list-style: none;
+	display: block;
+	padding: 9px 5px;
+	background: white;
+	color: black;
+	font-size: 14px;
+	border: 1px solid #ccc; 
+}
+
+.content{
+	float: right;
+	width: 75%;
+	font-size: 14px;
+}
+
+
+.clearfix:after {
+	content: "";
+	display: inline;
+	clear: both;
+	height: 0;
+	width: 100%;
+
+
+}
+.navigation {
+	float: left;
+	width: 92%;
+	list-style: none;
+	font-size: 16px;
+	margin-bottom: 10px;
+	background-color: black;
+
+
+}
+
+.navigation li{
+	float: left;
+	margin-right: 15px;
+	position: relative;
+	display: block;
+	padding: 5px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	
+}
+
+.bottom {
+	float: left;
+	width: 92%;
+	list-style: none;
+	font-size: 16px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+
+}
+
+.bottom li{
+	float: left;
+	margin-right: 15px;
+	position: relative;
+	display: block;
+	padding: 5px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	color: black;
+	background-color: white;
+
+}
+.footers {
+	clear: both;
+	background-color: blue;
+
+} 
+
+
+
